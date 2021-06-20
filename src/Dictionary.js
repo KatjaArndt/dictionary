@@ -23,10 +23,18 @@ function handleKeywordChange(event){
 
     
     return <div className ="dictionary">
-        <form onSubmit = {search}>
-            <input type ="search" onChange = {handleKeywordChange} />
+        <form class = "form-inline" onSubmit = {search}>
+            <div class="form-group mx-sm-3 mb-2">
+                <input type ="search" placeholder="type a word" className="form-control" onChange = {handleKeywordChange} />
+            </div>
+            <button type="submit" class="btn btn-primary mb-2">Search</button>
 
-         
+            
+            
+
+
+
+        
         </form>
         <Results results = {results}/>
     </div>
