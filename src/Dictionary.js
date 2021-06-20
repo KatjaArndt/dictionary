@@ -28,13 +28,6 @@ function handleKeywordChange(event){
                 <input type ="search" placeholder="type a word" className="form-control" onChange = {handleKeywordChange} />
             </div>
             <button type="submit" class="btn btn-primary mb-2">Search</button>
-
-            
-            
-
-
-
-        
         </form>
         <Results results = {results}/>
     </div>
