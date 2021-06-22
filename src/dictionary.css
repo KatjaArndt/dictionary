@@ -1,0 +1,12 @@
+dictionary input {
+    border-radius: 5px;
+    max-width: 500px;
+    text-align: center;
+}
+dictionary hint {
+   font-size: 100px;
+   color: blue;
+   font-weight: lighter;
+
+}
+
