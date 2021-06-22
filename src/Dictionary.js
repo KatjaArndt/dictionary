@@ -34,14 +34,20 @@ function load() {
    if(loaded){
            return <div className ="dictionary">
         <section className ="search-section">
+           <h2>
+      What are you looking for?
+           </h2>
+                     
+         
+ 
                     <form className = "form-inline" onSubmit = {handleSubmit}>
-            <div className="form-group mx-sm-3 mb-2">
-                <input type ="search" placeholder="type a word" className="form-control" onChange = {handleKeywordChange} />
+            <div className="searchbox">
+                <input type ="search" placeholder="type a word" className="form-control" onChange = {handleKeywordChange} defaultValue ={props.defaultKeyword} />
             </div>
             {/*<button type="submit" class="btn btn-light mb-2">Search</button>*/}
         </form>
         <div className="hint">
-            suggested words: climbing, assistant, hello, web, ...
+            suggested words: marathon, assistant, hello, web, ...
         </div>
         </section>
 

@@ -2,7 +2,7 @@ header {
     margin: 20px 0px 20px 0px;
 }
 body {
-    text-align: center;
+    text-align: left;
     max-width: 700px;
     display: block;
     margin: 0 auto;
@@ -13,6 +13,7 @@ body {
 
 footer {
     margin-top: 20px;
+    text-align: center;
 }
 footer a{
     color: black;
@@ -25,4 +26,5 @@ footer a:hover{
 h1 {
    text-transform: capitalize;
    color: #6D7975;
+   text-align: center;
 }

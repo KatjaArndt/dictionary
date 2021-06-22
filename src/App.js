@@ -13,7 +13,7 @@ DICTIONARY
         </h1>
       </header>
       <main>
-        <Dictionary defaultKeyword="climbing"/>
+        <Dictionary defaultKeyword="climbing" />
       </main>
       <footer>
         <small>This dictionary app was coded by <a href="https://www.linkedin.com/in/katja-arndt-b02409a4/">Katja Arndt&nbsp;</a>
